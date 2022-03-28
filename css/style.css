@@ -32,13 +32,32 @@ body{
 	font-size: 51px;
 	text-align: center;
 }
-.white-box {
-	background-color: #fff;
+.white-box{
+	background-color:#fff;
 	height: 100%;
 	width:20%;
 	display: inline-block;
-
+	padding: 2%;
+	margin-right: 4%
 }
-	
 
-
+/*.white-box:first-child{
+	background-color: red;
+}
+.white-box:last-child{
+	background-color: pink;
+}
+.white-box:nth-child(2){
+	background-color: yellow;
+}
+.white-box:nth-child(3){
+	background-color: green;
+*/
+.light-blue{
+	background-color:#75B3F9;
+	height:100%;
+	width: 100%;
+}
+.light-blue p{
+text-align: center;
+}
